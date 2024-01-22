@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --eerie-black-1: #172937;
+    --eerie-black-2: #253644;
+    --light-gray: hsl(0, 0%, 84%);
+    --white-1: hsl(0, 0%, 100%);
+    --orange-yellow-crayola: #f37021;
+}
+
+
+
+body{
+    background-color: var(--eerie-black-1);
+}
+.secondary-text{
+    color: var(--light-gray);
+}
+
+.h2_heading{
+    color: white;
+}
+.about-ruler{
+
+    width: 40px;
+    height:5px;
+    background:#ffa500 ;
+}
+
+
+.container-fluid{
+    background-color: var(--eerie-black-1);
+    padding-top: 10px;
+    
+}
+
+.container{
+    background-color: var(--eerie-black-1);
+    margin-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    
+}
+.main_div{
+    padding: 30px;
+    background-color: var(--eerie-black-2);
+    border-radius: 25px;
+}
+.sidebar{
+    background-color: var(--eerie-black-2);
+    height: 100%;
+    border-radius: 25px;
+
+}
+
+.my-avatar-div{
+    padding-top: 10px;  
+}
+.my-avatar{
+    border-radius: 25px;
+    position: inherit;
+    
+    width: 150px;
+    background: white;
+}
+.name{
+    color: white;
+    margin-bottom: 7%;
+}
+.year{
+    background: var(--eerie-black-1);
+    border-radius: 15px;
+}
+p{
+    color: var(--light-gray);
+}
+
+.w-i-m-row-item{
+    background-color: var(--eerie-black-1);
+    border-radius: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.para_details{
+    margin-bottom: 0;
+}
+.list_item_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 48px;
+    width: 48px;
+    background-color: var(--eerie-black-1);
+}
+.seperator{
+    color: rgb(243, 163, 13);
+    margin-top: 12%;
+    margin-bottom: 15%;
+   
+}
+.list_item{
+    margin-left: 0;
+}
+@media only screen and (max-width: 991px) {
+    .seperator {
+      visibility: hidden;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-height: 0;
+      max-width: 0;
+    }
+    .contact_details{
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+       
+    }
+    .social_icon{
+        visibility: hidden;
+    }
+}
+
+ 
